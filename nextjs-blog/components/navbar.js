@@ -6,7 +6,7 @@ import '../i18n.js';
 
 const NavBar = () => {
   const { t, i18n } = useTranslation();
-  const lngs = {
+  const langs = {
     en: { nativeName: 'English' },
     de: { nativeName: 'Deutsch' }
   };
@@ -30,9 +30,9 @@ const NavBar = () => {
               <li><a href="#" className="nav-link px-2 text-white">{t('navbar.link3')}</a></li>
               <li><a href="#" className="nav-link px-2 text-white">{t('navbar.link4')}</a></li>
             </ul>
-            <div className="dropdown ms-2">
+            <div className="dropdown ms-5">
               <button
-                className="btn btn-secondary dropdown-toggle"
+                className="button outline button-lang"
                 type="button"
                 data-bs-toggle="dropdown"
                 id="dropdownMenuButton1"
@@ -41,9 +41,9 @@ const NavBar = () => {
                 {i18n.resolvedLanguage}
               </button>
               <ul className="dropdown-menu px-2" aria-labelledby="dropdownMenuButton1">
-                {Object.keys(lngs).map((lng) => (
+                {Object.keys(langs).map((lng) => (
                   <li key={lng} style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
-                    {lngs[lng].nativeName}
+                    {langs[lng].nativeName}
                   </li>
                 ))}
               </ul>

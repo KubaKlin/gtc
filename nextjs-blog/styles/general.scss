@@ -1,1 +1,51 @@
 $color-primary: #F2642B;
+$color-primary-hover: #D14A00;
+$color-gray: #818181;
+$color-text: #333333;
+
+* {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.animate-wait {
+  position: relative;
+  transition: all 800ms ease-in;
+  transform: translate(0, 3rem);
+  opacity: 0;
+}
+
+.animate-in {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.button {
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 0.375rem;
+  background-color: $color-primary;
+  transition: background-color 200ms ease-in-out;
+
+  &:hover {
+    background-color: $color-primary-hover;
+  }
+
+  &.outline {
+    border-color: #fff;
+    background: none;
+    transition: opacity 200ms ease-in-out;
+
+    &:hover {
+      background: none;
+      opacity: .7;
+    }
+  }
+
+  &.button-lang {
+    padding: 0.25rem 1rem;
+  }
+}
