@@ -1,29 +1,21 @@
-import Head from 'next/head';
+import NavBar from '../components/navbar'
+import PageHead from "../components/pagehead";
 import Link from "next/link";
+import Footer from "../components/footer";
 
 export default function Home() {
   return (
-    <div>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <>
+      <PageHead/>
+      <NavBar />
 
-      <main>
+      <section>
         <h1>
           <Link href="/">Back to home</Link>
         </h1>
-      </main>
+      </section>
 
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-        </a>
-      </footer>
+      <Footer/>
 
       <style jsx>{`
         main {
@@ -91,6 +83,6 @@ export default function Home() {
           box-sizing: border-box;
         }
       `}</style>
-    </div>
+    </>
   );
 }

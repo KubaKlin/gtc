@@ -19,14 +19,29 @@ i18n
     resources: {
       en: {
         translation: {
+          navbar: {
+            link1: 'Home',
+            link2: 'About',
+            link3: 'Service',
+            link4: 'Contact',
+          },
           txt: {
             part1: 'Edit and save to reload.',
             part2: 'Learn React'
+          },
+          footer: {
+            txt: 'footer af'
           }
         }
       },
       de: {
         translation: {
+          navbar: {
+            link1: 'Das Home',
+            link2: 'Die About',
+            link3: 'Der Service',
+            link4: 'Das Contact',
+          },
           txt: {
             part1: 'Ändere und speichere um neu zu laden.',
             part2: 'Lerne React'
