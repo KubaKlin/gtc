@@ -1,3 +1,5 @@
+import React, { useState, useEffect } from "react"
+
 import Link from 'next/link';
 import Image from 'next/image'
 
@@ -10,9 +12,23 @@ const NavBar = () => {
     en: { nativeName: 'English' },
     de: { nativeName: 'Deutsch' }
   };
+  const [navbar, setNavbar] = useState(false)
 
+  const changeBackground = () => {
+    if (window.scrollY > 66) {
+      setNavbar(true)
+    } else {
+      setNavbar(false)
+    }
+  }
+
+  useEffect(() => {
+    changeBackground()
+    window.addEventListener("scroll", changeBackground)
+  })
+  
   return (
-    <header className="text-white nav-bar">
+    <header className={navbar ? "nav-bar scrolled" : "nav-bar"}>
       <div className="container">
         <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
           <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none">
@@ -20,10 +36,11 @@ const NavBar = () => {
               src="/logo.svg"
               width={130} height={87}
               alt="GTC logo"
+              className="nav-logo"
             />
           </a>
 
-          <div className="text-end d-flex">
+          <nav className="text-end d-flex">
             <ul className="nav col-12 text-end col-lg-auto me-lg-auto justify-content-center">
               <li><Link href="/" className="nav-link px-2 text-white">{t('navbar.link1')}</Link></li>
               <li><Link href="/about" className="nav-link px-2 text-white">{t('navbar.link2')}</Link></li>
@@ -48,7 +65,7 @@ const NavBar = () => {
                 ))}
               </ul>
             </div>
-          </div>
+          </nav>
         </div>
       </div>
     </header>
