@@ -12,7 +12,7 @@ const NavBar = () => {
   };
 
   return (
-    <header className="text-white kk-navbar">
+    <header className="text-white nav-bar">
       <div className="container">
         <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
           <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none">

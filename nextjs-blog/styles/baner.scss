@@ -1,0 +1,19 @@
+.baner {
+  background-image: url("../public/baner.jpg");
+  background-size: cover;
+  background-position: center;
+
+  .container {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .baner-content-wrapp {
+    color: #fff;
+
+    h3 {
+      color: $color-primary;
+    }
+  }
+}

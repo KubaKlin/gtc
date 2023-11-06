@@ -25,6 +25,11 @@ i18n
             link3: 'Service',
             link4: 'Contact',
           },
+          baner: {
+            h3: 'We Create Opportunity to Reach Potential.',
+            h1: 'Full Sustainable Cargo Solutions',
+            p: 'Representative logistics operator providing full range of service in the sphere of customs clearance and transportation worldwide.'
+          },
           txt: {
             part1: 'Edit and save to reload.',
             part2: 'Learn React'
@@ -41,6 +46,11 @@ i18n
             link2: 'Die About',
             link3: 'Der Service',
             link4: 'Das Contact',
+          },
+          baner: {
+            h3: 'der',
+            h1: 'die',
+            p: 'das'
           },
           txt: {
             part1: 'Ändere und speichere um neu zu laden.',
