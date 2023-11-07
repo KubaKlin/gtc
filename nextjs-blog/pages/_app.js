@@ -19,6 +19,17 @@ export function AnimateWrapp({ children }) {
   );
 }
 
+export function AnimateWrappLater({ children }) {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+
+  return (
+    <section ref={ref} className={isInView ? "animate-in later animate-wait" : "animate-wait"}>
+      {children}
+    </section>
+  );
+}
+
 export default function MyApp({ Component, pageProps }) {
   return (
     <>

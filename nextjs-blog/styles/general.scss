@@ -10,7 +10,7 @@ $color-text: #333333;
 
 .animate-wait {
   position: relative;
-  transition: all 800ms ease-in;
+  transition: all 800ms ease-out;
   transform: translate(0, 3rem);
   opacity: 0;
 }
@@ -18,6 +18,10 @@ $color-text: #333333;
 .animate-in {
   transform: translate(0, 0);
   opacity: 1;
+
+  &.later {
+    transition-delay: 300ms;
+  }
 }
 
 .button {
@@ -49,3 +53,11 @@ $color-text: #333333;
     padding: 0.25rem 1rem;
   }
 }
+
+.big-head {
+  font-size: 3rem;
+  text-align: center;
+  color: $color-primary;
+  margin-bottom: 4rem;
+}
+
