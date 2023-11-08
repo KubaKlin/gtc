@@ -7,7 +7,7 @@ import Link from "next/link";
 import 'bootstrap/dist/css/bootstrap.css';
 import '../i18n.js';
 import { useTranslation } from 'react-i18next';
-import {AnimateWrapp, AnimateWrappLater} from "./_app";
+import { AnimateWrapp, AnimateWrappLater } from "./_app";
 
 export default function Home() {
   const { t } = useTranslation();
@@ -31,7 +31,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="about">
+      <section className="about" id="about">
         <div className="container d-flex justify-content-between align-items-center">
           <div className="baner-content-wrapp">
             <AnimateWrapp>
@@ -104,8 +104,8 @@ export default function Home() {
             <h4 className="big-head">Our Services</h4>
           </AnimateWrapp>
           <AnimateWrapp>
-            <div className="row gap-lg-5 gap-4">
-              <div className="services-col col-5 col-lg">
+            <div className="row gap-lg-5 gap-2">
+              <div className="services-col col-10 col-lg">
                 <Image
                   src="/service1.png"
                   width={79} height={79}
@@ -118,21 +118,7 @@ export default function Home() {
                 </p>
                 <Link className="button" href="/about">See more</Link>
               </div>
-              <div className="services-col col-5 col-lg">
-                <Image
-                  src="/service1.png"
-                  width={79} height={79}
-                  alt="GTC service pic"
-                />
-
-                <h2>Transport  FTL i LTL</h2>
-                <p>
-                  Posiadamy zaawansowane systemy zarządzania transportem, aby zagwarantować
-                  terminowość oraz pełne bezpieczeństwo zleconych nam przesyłek.
-                </p>
-                <Link className="button" href="/about">See more</Link>
-              </div>
-              <div className="services-col col-5 col-lg">
+              <div className="services-col col-10 col-lg">
                 <Image
                   src="/service1.png"
                   width={79} height={79}
@@ -146,7 +132,21 @@ export default function Home() {
                 </p>
                 <Link className="button" href="/about">See more</Link>
               </div>
-              <div className="services-col col-5 col-lg">
+              <div className="services-col col-10 col-lg">
+                <Image
+                  src="/service1.png"
+                  width={79} height={79}
+                  alt="GTC service pic"
+                />
+
+                <h2>Transport  FTL i LTL</h2>
+                <p>
+                  Posiadamy zaawansowane systemy zarządzania transportem, aby zagwarantować
+                  terminowość oraz pełne bezpieczeństwo zleconych nam przesyłek.
+                </p>
+                <Link className="button" href="/about">See more</Link>
+              </div>
+              <div className="services-col col-10 col-lg">
                 <Image
                   src="/service1.png"
                   width={79} height={79}
@@ -259,6 +259,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       <Footer/>
     </>
   );

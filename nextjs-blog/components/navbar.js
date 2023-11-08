@@ -26,7 +26,7 @@ const NavBar = () => {
     changeBackground()
     window.addEventListener("scroll", changeBackground)
   })
-  
+
   return (
     <header className={navbar ? "nav-bar scrolled" : "nav-bar"}>
       <div className="container">
@@ -43,9 +43,19 @@ const NavBar = () => {
           <nav className="text-end d-flex">
             <ul className="nav col-12 text-end col-lg-auto me-lg-auto justify-content-center">
               <li><Link href="/" className="nav-link px-2 text-white">{t('navbar.link1')}</Link></li>
-              <li><Link href="/about" className="nav-link px-2 text-white">{t('navbar.link2')}</Link></li>
-              <li><a href="#" className="nav-link px-2 text-white">{t('navbar.link3')}</a></li>
-              <li><a href="#" className="nav-link px-2 text-white">{t('navbar.link4')}</a></li>
+              <li><Link href="/#about" className="nav-link px-2 text-white">{t('navbar.link2')}</Link></li>
+
+              <li className="nav-item dropdown">
+                <a className="nav-link text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  {t('navbar.link3')}
+                </a>
+                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><Link href="/services/sea-containers" className="nav-link px-4">{t('navbar.service.link1')}</Link></li>
+                </ul>
+              </li>
+
+              <li><Link href="/#about" className="nav-link px-2 text-white">{t('navbar.link4')}</Link></li>
+              <li><a href="#footer" className="nav-link px-2 text-white">{t('navbar.link5')}</a></li>
             </ul>
             <div className="dropdown ms-5">
               <button

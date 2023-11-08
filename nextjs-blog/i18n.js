@@ -23,7 +23,11 @@ i18n
             link1: 'Home',
             link2: 'About',
             link3: 'Service',
-            link4: 'Contact',
+            link4: 'Team',
+            link5: 'Contact',
+            service: {
+              link1: 'Transport kontenerów morskich'
+            }
           },
           baner: {
             h3: 'We Create Opportunity to Reach Potential.',
