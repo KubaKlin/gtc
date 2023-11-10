@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import '../i18n.js';
 import { useTranslation } from 'react-i18next';
 import { AnimateWrapp, AnimateWrappLater } from "./_app";
+import ContactFooter from "../components/contact_foot";
 
 export default function Home() {
   const { t } = useTranslation();
@@ -165,21 +166,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="gtc-brag">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-12 col-lg-5">
-              <AnimateWrapp>
-              <h4>GTC Poland</h4>
-              <h3>The best people to take care of your cargo</h3>
-              </AnimateWrapp>
-            </div>
-            <div className="col-12 col-lg d-flex">
-              <Link className="button outline" href="/about">Contact us</Link>
-            </div>
-          </div>
-        </div>
-      </section>
+      <ContactFooter/>
 
       <section className="our-team">
         <div className="container">
@@ -255,6 +242,27 @@ export default function Home() {
                   className="team-pic"
                 />
               </AnimateWrappLater>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="contact-map">
+        <div className="d-flex align-items-center">
+          <div className="col-12 col-lg-6">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10228.910384002313!2d19.195441!3d50.138174!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716c10c28f80f2b%3A0x343f422aec4558b1!2sGTC%20POLAND%20Sp.%20z%20o.o.!5e0!3m2!1spl!2spl!4v1699443026042!5m2!1spl!2spl"
+              width="100%" height="550" allowFullScreen="" loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div className="col-12 col-lg-6">
+            <div className="baner-content-wrapp">
+              <AnimateWrapp>
+                <h3>Contact with us</h3>
+                <h4>{t('baner.h1')}</h4>
+                <p>{t('baner.p')}</p>
+                <Link className="button" href="/">Send email</Link>
+              </AnimateWrapp>
             </div>
           </div>
         </div>

@@ -9,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import '../../i18n.js';
 import { useTranslation } from 'react-i18next';
 import { AnimateWrapp, AnimateWrappLater } from "../_app";
+import ContactFooter from "../../components/contact_foot";
 
 
 export default function Home() {
@@ -69,7 +70,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+      <ContactFooter/>
       <Footer/>
     </>
   );
