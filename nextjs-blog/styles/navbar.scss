@@ -40,4 +40,14 @@
       width: 5rem;
     }
   }
+
+  .dropdown-menu {
+    background-color: #111;
+    width: 16rem;
+
+    .nav-link {
+      font-size: 0.875rem;
+      color: #fff;
+    }
+  }
 }

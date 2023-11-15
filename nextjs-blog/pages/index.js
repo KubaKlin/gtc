@@ -22,11 +22,21 @@ export default function Home() {
         <div className="container">
           <AnimateWrapp>
             <div className="baner-content-wrapp">
-              <h3>{t('baner.h3')}</h3>
-              <h1>{t('baner.h1')}</h1>
-              <p>{t('baner.p')}</p>
-              <Link className="button" href="/about">About</Link>
-              <Link className="button outline ms-5" href="/about">Services</Link>
+              <h3>
+                {t('baner.h3')}
+              </h3>
+              <h1>
+                {t('baner.h1')}
+              </h1>
+              <p>
+                {t('baner.p')}
+              </p>
+              <Link className="button" href="/about">
+                {t('global.link2')}
+              </Link>
+              <Link className="button outline ms-5" href="/about">
+                {t('global.link3')}
+              </Link>
             </div>
           </AnimateWrapp>
         </div>
@@ -36,19 +46,23 @@ export default function Home() {
         <div className="container d-flex justify-content-between align-items-center">
           <div className="baner-content-wrapp">
             <AnimateWrapp>
-              <h3>{t('baner.h3')}</h3>
-              <h1>{t('baner.h1')}</h1>
-              <p>{t('baner.p')}</p>
-              <Link className="button" href="/about">Show services</Link>
+              <h3>
+                {t('baner2.h3')}
+              </h3>
+              <h1>
+                {t('baner2.h1')}
+              </h1>
+              <p>
+                {t('baner2.p')}
+              </p>
+              <Link className="button" href="/about">
+                {t('baner2.button')}
+              </Link>
             </AnimateWrapp>
           </div>
           <AnimateWrappLater>
             <div className="baner-content-wrapp-right ms-auto">
-              <Image
-                src="/about.png"
-                width={696} height={538}
-                alt="GTC logo"
-              />
+              <Image src="/about.png" width={696} height={538} alt="GTC logo"/>
             </div>
           </AnimateWrappLater>
         </div>
@@ -64,7 +78,8 @@ export default function Home() {
                   width={79} height={79}
                   alt="GTC stat ico"
                 />
-                <span>15</span>Clients
+                <span>215</span>
+                {t('stats.txt1')}
               </div>
               <div className="stats-col col-6 col-lg-3">
                 <Image
@@ -72,8 +87,8 @@ export default function Home() {
                   width={79} height={79}
                   alt="GTC stat ico"
                 />
-                <span>15</span>
-                Parcels
+                <span>335k</span>
+                {t('stats.txt2')}
               </div>
 
               <div className="stats-col col-6 col-lg-3">
@@ -82,8 +97,8 @@ export default function Home() {
                   width={79} height={79}
                   alt="GTC stat ico"
                 />
-                <span>15</span>
-                Trucks
+                <span>363</span>
+                {t('stats.txt3')}
               </div>
               <div className="stats-col col-6 col-lg-3">
                 <Image
@@ -91,8 +106,8 @@ export default function Home() {
                   width={79} height={79}
                   alt="GTC stat ico"
                 />
-                <span>15</span>
-                Delivered
+                <span>218</span>
+                {t('stats.txt4')}
               </div>
             </div>
           </AnimateWrapp>
@@ -102,64 +117,52 @@ export default function Home() {
       <section className="services">
         <div className="container">
           <AnimateWrapp>
-            <h4 className="big-head">Our Services</h4>
+            <h4 className="big-head">
+              {t('global.txt1')}
+            </h4>
           </AnimateWrapp>
           <AnimateWrapp>
             <div className="row gap-lg-5 gap-2">
               <div className="services-col col-10 col-lg">
-                <Image
-                  src="/service1.png"
-                  width={79} height={79}
-                  alt="GTC service pic"
-                />
-                <h2>Transport  FTL i LTL</h2>
+                <h2>{t('service.txt2')}</h2>
                 <p>
-                  Posiadamy zaawansowane systemy zarządzania transportem, aby zagwarantować
-                  terminowość oraz pełne bezpieczeństwo zleconych nam przesyłek.
+                  {t('service.subtxt1')}
                 </p>
-                <Link className="button" href="/about">See more</Link>
+                <Link className="button" href="/services/sea-containers">
+                  {t('global.link6')}
+                </Link>
               </div>
               <div className="services-col col-10 col-lg">
-                <Image
-                  src="/service1.png"
-                  width={79} height={79}
-                  alt="GTC service pic"
-                />
-
-                <h2>Transport  FTL i LTL</h2>
+                <h2>{t('service.txt2')}</h2>
                 <p>
-                  Posiadamy zaawansowane systemy zarządzania transportem, aby zagwarantować
-                  terminowość oraz pełne bezpieczeństwo zleconych nam przesyłek.
+                  {t('service.subtxt1')}
                 </p>
-                <Link className="button" href="/about">See more</Link>
+                <Link className="button" href="/services/sea-containers">
+                  {t('global.link6')}
+                </Link>
               </div>
               <div className="services-col col-10 col-lg">
-                <Image
-                  src="/service1.png"
-                  width={79} height={79}
-                  alt="GTC service pic"
-                />
-
-                <h2>Transport  FTL i LTL</h2>
+                <h2>{t('service.txt2')}</h2>
                 <p>
-                  Posiadamy zaawansowane systemy zarządzania transportem, aby zagwarantować
-                  terminowość oraz pełne bezpieczeństwo zleconych nam przesyłek.
+                  {t('service.subtxt1')}
                 </p>
-                <Link className="button" href="/about">See more</Link>
+                <Link className="button" href="/services/sea-containers">
+                  {t('global.link6')}
+                </Link>
               </div>
               <div className="services-col col-10 col-lg">
-                <Image
-                  src="/service1.png"
-                  width={79} height={79}
-                  alt="GTC service pic"
-                />
-
-                <h2>Transport  FTL i LTL</h2>
+                {/*<Image*/}
+                {/*  src="/service1.png"*/}
+                {/*  width={79} height={79}*/}
+                {/*  alt="GTC service pic"*/}
+                {/*/>*/}
+                <h2>{t('service.txt2')}</h2>
                 <p>
-                  Posiadamy zaawansowane systemy zarządzania transportem, aby zagwarantować
-                  terminowość oraz pełne bezpieczeństwo zleconych nam przesyłek.
+                  {t('service.subtxt1')}
                 </p>
-                <Link className="button" href="/about">See more</Link>
+                <Link className="button" href="/services/sea-containers">
+                  {t('global.link6')}
+                </Link>
               </div>
             </div>
           </AnimateWrapp>
@@ -171,7 +174,9 @@ export default function Home() {
       <section className="our-team">
         <div className="container">
           <AnimateWrapp>
-            <h4 className="big-head">Our Team</h4>
+            <h4 className="big-head">
+              {t('global.txt2')}
+            </h4>
           </AnimateWrapp>
           <AnimateWrapp>
             <div className="row gap-lg-5 gap-4">
@@ -181,9 +186,14 @@ export default function Home() {
                   width={300} height={300}
                   alt="GTC team pic"
                 />
-                <h2>Transport  FTL i LTL</h2>
+                <h2>
+                  {t('team.name1')}
+                </h2>
                 <p>
-                  Posiadamy zaawansowane
+                  {t('team.occ1')}
+                </p>
+                <p>
+                  {t('team.contact1')}
                 </p>
               </div>
               <div className="team-col col-5 col-lg">
@@ -192,9 +202,14 @@ export default function Home() {
                   width={300} height={300}
                   alt="GTC team pic"
                 />
-                <h2>Transport  FTL i LTL</h2>
+                <h2>
+                  {t('team.name1')}
+                </h2>
                 <p>
-                  Posiadamy zaawansowane
+                  {t('team.occ1')}
+                </p>
+                <p>
+                  {t('team.contact1')}
                 </p>
               </div>
               <div className="team-col col-5 col-lg">
@@ -203,9 +218,14 @@ export default function Home() {
                   width={300} height={300}
                   alt="GTC team pic"
                 />
-                <h2>Transport  FTL i LTL</h2>
+                <h2>
+                  {t('team.name1')}
+                </h2>
                 <p>
-                  Posiadamy zaawansowane
+                  {t('team.occ1')}
+                </p>
+                <p>
+                  {t('team.contact1')}
                 </p>
               </div>
               <div className="team-col col-5 col-lg">
@@ -214,9 +234,14 @@ export default function Home() {
                   width={300} height={300}
                   alt="GTC team pic"
                 />
-                <h2>Transport  FTL i LTL</h2>
+                <h2>
+                  {t('team.name2')}
+                </h2>
                 <p>
-                  Posiadamy zaawansowane
+                  {t('team.occ2')}
+                </p>
+                <p>
+                  {t('team.contact2')}
                 </p>
               </div>
             </div>
@@ -230,7 +255,9 @@ export default function Home() {
             <div className="col-12 col-lg-6">
               <AnimateWrapp>
                 <h4>GTC Poland</h4>
-                <h3>The best people to take care of your cargo</h3>
+                <h3>
+                  {t('baner3.txt1')}
+                </h3>
               </AnimateWrapp>
             </div>
             <div className="col-12 col-lg-6 team-pic-wrapp">
@@ -248,7 +275,7 @@ export default function Home() {
       </section>
 
       <section className="contact-map">
-        <div className="d-flex align-items-center">
+        <div className="row align-items-center">
           <div className="col-12 col-lg-6">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10228.910384002313!2d19.195441!3d50.138174!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716c10c28f80f2b%3A0x343f422aec4558b1!2sGTC%20POLAND%20Sp.%20z%20o.o.!5e0!3m2!1spl!2spl!4v1699443026042!5m2!1spl!2spl"
@@ -256,12 +283,18 @@ export default function Home() {
               referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
           <div className="col-12 col-lg-6">
-            <div className="baner-content-wrapp">
+            <div className="baner-content-wrapp py-md-0 my-md-0 py-4 my-4">
               <AnimateWrapp>
                 <h3>Contact with us</h3>
-                <h4>{t('baner.h1')}</h4>
-                <p>{t('baner.p')}</p>
-                <Link className="button" href="/">Send email</Link>
+                <h4>
+                  {t('baner.h1')}
+                </h4>
+                <p>
+                  {t('baner.p')}
+                </p>
+                <Link className="button" href="/">
+                  {t('global.link7')}
+                </Link>
               </AnimateWrapp>
             </div>
           </div>

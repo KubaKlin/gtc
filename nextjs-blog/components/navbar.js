@@ -1,16 +1,21 @@
-import React, { useState, useEffect } from "react"
+import React, {useState, useEffect} from "react"
 
 import Link from 'next/link';
 import Image from 'next/image'
 
-import { useTranslation } from 'react-i18next';
+import {useTranslation} from 'react-i18next';
 import '../i18n.js';
 
 const NavBar = () => {
-  const { t, i18n } = useTranslation();
+  const {t, i18n} = useTranslation();
   const langs = {
-    en: { nativeName: 'English' },
-    de: { nativeName: 'Deutsch' }
+    pl: {nativeName: 'Polish'},
+    en: {nativeName: 'English'},
+    de: {nativeName: 'Deutsch'},
+    nl: {nativeName: 'Netherland'},
+    fr: {nativeName: 'France'},
+    it: {nativeName: 'Italy'},
+    ua: {nativeName: 'Ukrain'},
   };
   const [navbar, setNavbar] = useState(false)
 
@@ -42,34 +47,113 @@ const NavBar = () => {
 
           <nav className="text-end d-flex">
             <ul className="nav col-12 text-end col-lg-auto me-lg-auto justify-content-center">
-              <li><Link href="/" className="nav-link px-2 text-white">{t('navbar.link1')}</Link></li>
-              <li><Link href="/#about" className="nav-link px-2 text-white">{t('navbar.link2')}</Link></li>
+              <li>
+                <Link href="/" className="nav-link px-2 text-white">
+                  {t('global.link1')}
+                </Link>
+              </li>
+              <li>
+                <Link href="/#about" className="nav-link px-2 text-white">
+                  {t('global.link2')}
+                </Link>
+              </li>
 
               <li className="nav-item dropdown">
-                <a className="nav-link text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  {t('navbar.link3')}
+                <a className="nav-link text-white" href="#" id="navbarDropdown" role="button"
+                   data-bs-toggle="dropdown" aria-expanded="false">
+                  {t('global.link3')}
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><Link href="/services/sea-containers" className="nav-link px-4">{t('navbar.service.link1')}</Link></li>
+                  <li>
+                    <Link href="/services/sea-containers" className="nav-link px-3 py-1">
+                      {t('service.txt1')}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/services/sea-containers" className="nav-link px-3">
+                      {t('service.txt2')}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/services/sea-containers" className="nav-link px-3">
+                      {t('service.txt3')}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/services/sea-containers" className="nav-link px-3 py-1">
+                      {t('service.txt4')}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/services/sea-containers" className="nav-link px-3">
+                      {t('service.txt5')}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/services/sea-containers" className="nav-link px-3">
+                      {t('service.txt6')}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/services/sea-containers" className="nav-link px-3 py-1">
+                      {t('service.txt7')}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/services/sea-containers" className="nav-link px-3">
+                      {t('service.txt8')}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/services/sea-containers" className="nav-link px-3">
+                      {t('service.txt9')}
+                    </Link>
+                  </li>
                 </ul>
               </li>
 
-              <li><Link href="/#about" className="nav-link px-2 text-white">{t('navbar.link4')}</Link></li>
-              <li><a href="#footer" className="nav-link px-2 text-white">{t('navbar.link5')}</a></li>
+              <li>
+                <Link href="/#about" className="nav-link px-2 text-white">
+                  {t('global.link4')}
+                </Link>
+              </li>
+              <li className="nav-item dropdown">
+                <a className="nav-link text-white" href="#" id="navbarDropdown" role="button"
+                   data-bs-toggle="dropdown" aria-expanded="false">
+                  {t('global.link8')}
+                </a>
+                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <Link href="/services/sea-containers" className="nav-link px-3 py-1">
+                      {t('service.txt10')}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/services/sea-containers" className="nav-link px-3 py-1">
+                      {t('service.txt11')}
+                    </Link>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#footer" className="nav-link px-2 text-white">
+                  {t('global.link5')}
+                </a>
+              </li>
             </ul>
             <div className="dropdown ms-5">
               <button
-                className="button outline button-lang"
-                type="button"
-                data-bs-toggle="dropdown"
-                id="dropdownMenuButton1"
-                aria-expanded="false"
+                className="button outline button-lang" type="button" data-bs-toggle="dropdown"
+                id="dropdownMenuButton1" aria-expanded="false"
               >
                 {i18n.resolvedLanguage}
               </button>
               <ul className="dropdown-menu px-2" aria-labelledby="dropdownMenuButton1">
                 {Object.keys(langs).map((lng) => (
-                  <li key={lng} style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }} type="submit" onClick={() => i18n.changeLanguage(lng)}>
+                  <li className="nav-link px-2 py-2" key={lng}
+                      style={{fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal'}} type="submit"
+                      onClick={() => i18n.changeLanguage(lng)}
+                  >
                     {langs[lng].nativeName}
                   </li>
                 ))}

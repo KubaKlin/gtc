@@ -15,11 +15,15 @@ const ContactFooter = () => {
             <div className="col-12 col-lg-5">
               <AnimateWrapp>
                 <h4>GTC Poland</h4>
-                <h3>The best people to take care of your cargo</h3>
+                <h3>
+                  {t('baner3.txt1')}
+                </h3>
               </AnimateWrapp>
             </div>
             <div className="col-12 col-lg d-flex">
-              <Link className="button outline" href="/about">Contact us</Link>
+              <Link className="button outline" href="/about">
+                {t('global.link7')}
+              </Link>
             </div>
           </div>
         </div>

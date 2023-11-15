@@ -3,11 +3,10 @@ import PageHead from '../components/pagehead'
 import NavBar from '../components/navbar'
 import Footer from '../components/footer'
 import Image from 'next/image'
-import Link from "next/link";
 import 'bootstrap/dist/css/bootstrap.css';
 import '../i18n.js';
 import { useTranslation } from 'react-i18next';
-import { AnimateWrapp, AnimateWrappLater } from "./_app";
+import { AnimateWrapp } from "./_app";
 
 
 export default function Home() {
@@ -19,11 +18,11 @@ export default function Home() {
       <PageHead/>
       <NavBar />
 
-      <section className="sub-content baner">
+      <section className="sub-content-head baner">
         <div className="container">
           <AnimateWrapp>
-            <div className="baner-content-wrapp">
-              <h1>Our Team</h1>
+            <div className="baner-content-wrapp px-3">
+              <h5>{t('global.txt2')}</h5>
             </div>
           </AnimateWrapp>
         </div>

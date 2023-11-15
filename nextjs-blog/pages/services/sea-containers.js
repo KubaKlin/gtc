@@ -1,14 +1,13 @@
 import { useEffect } from "react";
 import PageHead from '../../components/pagehead'
 import NavBar from '../../components/navbar'
-import SideBar from '../../components/sideBar'
+import SideBarOther from '../../components/SideBarOther'
 import Footer from '../../components/footer'
 import Image from 'next/image'
-import Link from "next/link";
 import 'bootstrap/dist/css/bootstrap.css';
 import '../../i18n.js';
 import { useTranslation } from 'react-i18next';
-import { AnimateWrapp, AnimateWrappLater } from "../_app";
+import { AnimateWrapp } from "../_app";
 import ContactFooter from "../../components/contact_foot";
 
 
@@ -25,7 +24,7 @@ export default function Home() {
         <div className="container">
           <AnimateWrapp>
             <div className="baner-content-wrapp px-3">
-              <h5>Our Services</h5>
+              <h5>{t('global.txt1')}</h5>
             </div>
           </AnimateWrapp>
         </div>
@@ -65,7 +64,7 @@ export default function Home() {
               </AnimateWrapp>
             </div>
             <div className="col-4">
-              <SideBar/>
+              <SideBarOther/>
             </div>
           </div>
         </div>

@@ -174,7 +174,8 @@
       height: auto;
     }
     h2 {
-      padding: 1rem 1.5rem;
+      margin: 0;
+      padding: 2rem 1.5rem 1.5rem;
       font-size: 1.625rem;
     }
 
@@ -188,9 +189,9 @@
     .button {
       display: block;
       margin: 0 1.5rem 1rem;
-      padding: 0.75rem;
+      padding: 0.5rem;
       text-align: center;
-      font-size: 1.125rem;
+      font-size: 1rem;
       border-radius: 10rem
     }
   }
@@ -259,6 +260,7 @@
     }
 
     p {
+      margin-bottom: 0;
       font-size: 1.125rem;
       color: #666;
     }
@@ -286,6 +288,7 @@
       opacity: 0.1;
       bottom: -5.75rem;
       left: -15rem;
+      max-width: 90%;
     }
   }
 
@@ -336,6 +339,10 @@
 .contact-map {
   @media (max-width: 960px) {
     margin-top: 5rem;
+  }
+
+  .row {
+    width: 100%;
   }
 
   .baner-content-wrapp {
