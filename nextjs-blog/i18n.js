@@ -30,23 +30,45 @@ i18n
             link6: 'Zobacz więcej',
             link7: 'Kontakt',
             link8: 'Inne',
+            link9: 'Skontaktuj się z nami',
           },
           service: {
             txt1: 'Transport kontenerów morskich',
-            subtxt1: 'Posiadamy zaawansowane systemy zarządzania transportem, aby zagwarantować terminowość oraz pełne bezpieczeństwo zleconych nam przesyłek.',
+            subtxt11: 'Kierunki eksportowe: Chiny, UE. ',
+            subtxt12: 'Kierunki importowe: Indie (realizowany odcinkiem SEA), UE.',
+            subtxt13: '' +
+              'Dedykowane rozwiązania logistyczne Door to Door z uwzględnieniem transportu intermodalnego.' +
+              'Realizacja transportu kolejowego za pośrednictwem stałych operatorów z wykorzystaniem własnych ' +
+              'Tank Containers 20-23′, indywidualny opiekun 24/7 czuwający nad poprawnym przebiegiem transportu. ' +
+              'Flota wyposażona w naczepy do transportu kontenerów 20′ / 40′ / 40′ HC / 45′.',
+            subtxt14: 'Dysponujemy ciągnikami 3-osiowymi, obsługujemy terminale w Dąbrowie Górniczej, Sławkowie, ' +
+              'Gliwicach, Włosienicy, jak i w Brzegu Dolnym, Kątach Wrocławskich i Małaszewiczach.' +
+              'Oferujemy odwozy kontenerów w kraju i za granicą.',
+            subtxt15: 'Stałe połączenia liniowe: PL-NL, NL-DE, DE-PL, NL-SK, DE-ES',
             txt2: 'Transport  FTL',
+            subtxt21: 'Usługa międzynarodowego transportu drogowego jest mocno rozwinięta w naszej ofercie. Przygotowujemy kompleksowe oferty usług przewozu w oparciu o  wyspecjalizowanych spedytorów, którzy rozumieją potrzeby naszych Klientów. Nasze zespoły podzielone są według określonej specjalizacji zarówno pod kątem obszaru, na którym odbywa się transport jak również konkretnych wymogów przewozu właściwych dla danej branży. ',
+            subtxt22: 'Nasza flota gwarantuje optymalne rozwiązania oraz dużą elastyczność niezależnie od wielkości zamówień. Opieramy się na własnych środkach transportowych oraz flocie kontraktowej, co daje gwarancję obsługi najbardziej wymagających i złożonych zleceń. Wieloletnie doświadczenie, stały monitoring podwykonawców oraz wielowymiarowa i nowoczesna flota stanowią gwarancję wysokiej elastyczności. ',
             txt3: 'Transgraniczny transport odpadów',
+            subtxt31: '',
             txt4: 'Transport wywrotkami',
+            subtxt41: '',
             txt5: 'Transport Ekspresowy oraz LTL',
+            subtxt51: '',
             txt6: 'Transport płodów Rolnych GMP+',
+            subtxt61: '',
             txt7: 'Magazynowanie',
+            subtxt71: '',
             txt8: 'Transport materiałów do Recyclingu',
+            subtxt81: '',
             txt9: 'Pozwolenia środowiskowe',
+            subtxt91: '',
             txt10: 'Dla przewoźnika',
+            subtxt101: '',
             txt11: 'KARTA PALIWOWA GTC',
+            subtxt111: '',
           },
           baner: {
-            h3: 'Tworzymy możliwości, aby osiągnąć potencjał',
+            h3: 'GTC Poland',
             h1: 'W pełni zrównoważone rozwiązania transportowe',
             p: 'Jesteśmy firmą z wieloletnim doświadczeniem oferującą Państwu profesjonalne i sprawdzone rozwiązania transportowe o najwyższych standardach.',
           },
@@ -67,9 +89,13 @@ i18n
           },
           team: {
             occ1: 'superhero',
-            contact1: 'poczta@mail.pl',
             occ2: 'Navy Seals',
-            contact2: 'price@cod.pl',
+            occ3: 'Navy Seals',
+            occ4: 'Navy Seals',
+            occ5: 'Navy Seals',
+            occ6: 'Navy Seals',
+            occ7: 'Navy Seals',
+            occ8: 'Navy Seals',
           },
           card: {
             txt1: 'Do pobrania',

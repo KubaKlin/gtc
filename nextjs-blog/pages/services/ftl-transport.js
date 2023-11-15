@@ -27,13 +27,9 @@ export default function Home() {
           <div className="row">
             <div className="col-8 sub-content-wrapp">
               <AnimateWrappLater>
-                <h2>{t('service.txt1')}</h2>
-                <h4>
-                  {t('service.subtxt11')}<br/>
-                  {t('service.subtxt12')}
-                </h4>
+                <h2>{t('service.txt2')}</h2>
                 <p>
-                  {t('service.subtxt13')}
+                  {t('service.subtxt21')}
                 </p>
                 <Image
                   src="/services/sea-transport.jpg"
@@ -41,10 +37,7 @@ export default function Home() {
                   alt="GTC team pic"
                 />
                 <p>
-                  {t('service.subtxt14')}
-                </p>
-                <p>
-                  {t('service.subtxt15')}
+                  {t('service.subtxt22')}
                 </p>
               </AnimateWrappLater>
             </div>

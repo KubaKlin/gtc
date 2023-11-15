@@ -25,9 +25,9 @@ export default function Home() {
               <h3>
                 {t('baner.h3')}
               </h3>
-              <h1>
+              <h2>
                 {t('baner.h1')}
-              </h1>
+              </h2>
               <p>
                 {t('baner.p')}
               </p>
@@ -49,9 +49,9 @@ export default function Home() {
               <h3>
                 {t('baner2.h3')}
               </h3>
-              <h1>
+              <h2>
                 {t('baner2.h1')}
-              </h1>
+              </h2>
               <p>
                 {t('baner2.p')}
               </p>
@@ -124,9 +124,9 @@ export default function Home() {
           <AnimateWrapp>
             <div className="row gap-lg-5 gap-2">
               <div className="services-col col-10 col-lg">
-                <h2>{t('service.txt2')}</h2>
+                <h2>{t('service.txt1')}</h2>
                 <p>
-                  {t('service.subtxt1')}
+                  {t('service.subtxt11')}
                 </p>
                 <Link className="button" href="/services/sea-containers">
                   {t('global.link6')}
@@ -135,30 +135,25 @@ export default function Home() {
               <div className="services-col col-10 col-lg">
                 <h2>{t('service.txt2')}</h2>
                 <p>
-                  {t('service.subtxt1')}
+                  {t('service.subtxt11')}
                 </p>
                 <Link className="button" href="/services/sea-containers">
                   {t('global.link6')}
                 </Link>
               </div>
               <div className="services-col col-10 col-lg">
-                <h2>{t('service.txt2')}</h2>
+                <h2>{t('service.txt3')}</h2>
                 <p>
-                  {t('service.subtxt1')}
+                  {t('service.subtxt11')}
                 </p>
                 <Link className="button" href="/services/sea-containers">
                   {t('global.link6')}
                 </Link>
               </div>
               <div className="services-col col-10 col-lg">
-                {/*<Image*/}
-                {/*  src="/service1.png"*/}
-                {/*  width={79} height={79}*/}
-                {/*  alt="GTC service pic"*/}
-                {/*/>*/}
-                <h2>{t('service.txt2')}</h2>
+                <h2>{t('service.txt4')}</h2>
                 <p>
-                  {t('service.subtxt1')}
+                  {t('service.subtxt11')}
                 </p>
                 <Link className="button" href="/services/sea-containers">
                   {t('global.link6')}
@@ -187,13 +182,13 @@ export default function Home() {
                   alt="GTC team pic"
                 />
                 <h2>
-                  {t('team.name1')}
+                  Clark Cent
                 </h2>
                 <p>
                   {t('team.occ1')}
                 </p>
                 <p>
-                  {t('team.contact1')}
+                  poczta@mail.pl
                 </p>
               </div>
               <div className="team-col col-5 col-lg">
@@ -203,13 +198,13 @@ export default function Home() {
                   alt="GTC team pic"
                 />
                 <h2>
-                  {t('team.name1')}
+                  Clark Cent
                 </h2>
                 <p>
                   {t('team.occ1')}
                 </p>
                 <p>
-                  {t('team.contact1')}
+                  poczta@mail.pl
                 </p>
               </div>
               <div className="team-col col-5 col-lg">
@@ -219,13 +214,13 @@ export default function Home() {
                   alt="GTC team pic"
                 />
                 <h2>
-                  {t('team.name1')}
+                  Clark Cent
                 </h2>
                 <p>
                   {t('team.occ1')}
                 </p>
                 <p>
-                  {t('team.contact1')}
+                  poczta@mail.pl
                 </p>
               </div>
               <div className="team-col col-5 col-lg">
@@ -235,13 +230,13 @@ export default function Home() {
                   alt="GTC team pic"
                 />
                 <h2>
-                  {t('team.name2')}
+                  Clark Cent
                 </h2>
                 <p>
                   {t('team.occ2')}
                 </p>
                 <p>
-                  {t('team.contact2')}
+                  poczta@mail.pl
                 </p>
               </div>
             </div>
@@ -285,7 +280,7 @@ export default function Home() {
           <div className="col-12 col-lg-6">
             <div className="baner-content-wrapp py-md-0 my-md-0 py-4 my-4">
               <AnimateWrapp>
-                <h3>Contact with us</h3>
+                <h3>{t('global.link9')}</h3>
                 <h4>
                   {t('baner.h1')}
                 </h4>
