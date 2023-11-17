@@ -99,16 +99,6 @@ const NavBar = () => {
                       {t('service.txt7')}
                     </Link>
                   </li>
-                  <li>
-                    <Link href="/services/sea-containers" className="nav-link px-3">
-                      {t('service.txt8')}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/services/sea-containers" className="nav-link px-3">
-                      {t('service.txt9')}
-                    </Link>
-                  </li>
                 </ul>
               </li>
 
@@ -125,12 +115,12 @@ const NavBar = () => {
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
                     <Link href="/services/sea-containers" className="nav-link px-3 py-1">
-                      {t('service.txt10')}
+                      {t('service.txt8')}
                     </Link>
                   </li>
                   <li>
                     <Link href="/services/sea-containers" className="nav-link px-3 py-1">
-                      {t('service.txt11')}
+                      {t('service.txt9')}
                     </Link>
                   </li>
                 </ul>
