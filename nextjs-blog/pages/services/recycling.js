@@ -30,7 +30,7 @@ export default function Home() {
                 <h2>{t('service.txt3')}</h2>
                 <h4>{t('service.subtxt31')}</h4>
                 <Image
-                  src="/recycle.jpeg"
+                  src="/services/recycle.jpeg"
                   width={600} height={300}
                   alt="GTC team pic"
                 />

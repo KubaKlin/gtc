@@ -32,7 +32,7 @@ export default function Home() {
                   {t('service.subtxt71')}
                 </p>
                 <Image
-                  src="/storages.png"
+                  src="/services/storages.png"
                   width={600} height={300}
                   alt="GTC team pic"
                 />
