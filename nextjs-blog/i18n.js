@@ -87,8 +87,6 @@ i18n
             subtxt75: '- realizujemy obsługę magazynową w krótkich okresach czasu na zasadzie buforu',
             txt8: 'Dla przewoźnika',
             subtxt81: '',
-            txt9: 'Karta paliwowa GTC',
-            subtxt91: '',
           },
           baner: {
             h3: 'GTC Poland',

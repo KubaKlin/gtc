@@ -112,18 +112,6 @@ const NavBar = () => {
                    data-bs-toggle="dropdown" aria-expanded="false">
                   {t('global.link8')}
                 </a>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <Link href="/services/sea-containers" className="nav-link px-3 py-1">
-                      {t('service.txt8')}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/services/sea-containers" className="nav-link px-3 py-1">
-                      {t('service.txt9')}
-                    </Link>
-                  </li>
-                </ul>
               </li>
               <li>
                 <a href="#footer" className="nav-link px-2 text-white">
