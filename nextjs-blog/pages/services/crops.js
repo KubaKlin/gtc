@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import PageHead from '../../components/pagehead'
 import NavBar from '../../components/navbar'
-import SideBar from '../../components/SideBar'
+import SideBar from '../../components/sideBar'
 import NavBarSub from '../../components/navBarSub'
 import Footer from '../../components/footer'
 import Image from 'next/image'

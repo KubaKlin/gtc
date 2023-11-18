@@ -31,10 +31,10 @@ export default function Home() {
               <p>
                 {t('baner.p')}
               </p>
-              <Link className="button" href="/about">
+              <Link className="button" href="#about">
                 {t('global.link2')}
               </Link>
-              <Link className="button outline ms-5" href="/about">
+              <Link className="button outline ms-5" href="#services">
                 {t('global.link3')}
               </Link>
             </div>
@@ -55,7 +55,7 @@ export default function Home() {
               <p>
                 {t('baner2.p')}
               </p>
-              <Link className="button" href="/about">
+              <Link className="button" href="#services">
                 {t('baner2.button')}
               </Link>
             </AnimateWrapp>
@@ -114,7 +114,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="services">
+      <section className="services" id="services">
         <div className="container">
           <AnimateWrapp>
             <h4 className="big-head">
@@ -122,40 +122,58 @@ export default function Home() {
             </h4>
           </AnimateWrapp>
           <AnimateWrapp>
-            <div className="row gap-lg-5 gap-2">
+            <div className="row gap-lg-5 gap-2 mb-5">
               <div className="services-col col-10 col-lg">
                 <h2>{t('service.txt1')}</h2>
-                <p>
-                  {t('service.subtxt11')}
-                </p>
                 <Link className="button" href="/services/sea-containers">
                   {t('global.link6')}
                 </Link>
               </div>
               <div className="services-col col-10 col-lg">
                 <h2>{t('service.txt2')}</h2>
-                <p>
-                  {t('service.subtxt11')}
-                </p>
-                <Link className="button" href="/services/sea-containers">
+                <Link className="button" href="/services/ftl-transport">
                   {t('global.link6')}
                 </Link>
               </div>
               <div className="services-col col-10 col-lg">
                 <h2>{t('service.txt3')}</h2>
-                <p>
-                  {t('service.subtxt11')}
-                </p>
-                <Link className="button" href="/services/sea-containers">
+                <Link className="button" href="/services/recycling">
                   {t('global.link6')}
                 </Link>
               </div>
               <div className="services-col col-10 col-lg">
                 <h2>{t('service.txt4')}</h2>
-                <p>
-                  {t('service.subtxt11')}
-                </p>
-                <Link className="button" href="/services/sea-containers">
+              
+                <Link className="button" href="/services/dump-trucks">
+                  {t('global.link6')}
+                </Link>
+              </div>
+            </div>
+          </AnimateWrapp>
+          <AnimateWrapp>
+            <div className="row gap-lg-5 gap-2">
+              <div className="services-col col-10 col-lg">
+                <h2>{t('service.txt5')}</h2>
+                <Link className="button" href="/services/expressltl">
+                  {t('global.link6')}
+                </Link>
+              </div>
+              <div className="services-col col-10 col-lg">
+                <h2>{t('service.txt6')}</h2>
+                <Link className="button" href="/services/crops">
+                  {t('global.link6')}
+                </Link>
+              </div>
+              <div className="services-col col-10 col-lg">
+                <h2>{t('service.txt7')}</h2>
+                <Link className="button" href="/services/storage">
+                  {t('global.link6')}
+                </Link>
+              </div>
+              <div className="services-col col-10 col-lg">
+                <h2>{t('service.txt8')}</h2>
+              
+                <Link className="button" href="/services/for-carriers">
                   {t('global.link6')}
                 </Link>
               </div>
@@ -174,73 +192,96 @@ export default function Home() {
             </h4>
           </AnimateWrapp>
           <AnimateWrapp>
-            <div className="row gap-lg-5 gap-4">
-              <div className="team-col col-5 col-lg">
+            <div className="row mb-5">
+              <div className="team-col col-5 col-lg-3">
                 <Image
-                  src="/team/team.png"
+                  src="/team/3.png"
                   width={300} height={300}
                   alt="GTC team pic"
                 />
-                <h2>
-                  Clark Cent
-                </h2>
-                <p>
-                  {t('team.occ1')}
-                </p>
-                <p>
-                  poczta@mail.pl
-                </p>
+                <h2>Kamil Rebizant</h2>
+                <p>{t('team.oc3')}</p>
+                <p>kamil.rebizant@gtcpoland.com </p>
               </div>
-              <div className="team-col col-5 col-lg">
+              <div className="team-col col-5 col-lg-3">
                 <Image
-                  src="/team/team1.png"
+                  src="/team/21.png"
                   width={300} height={300}
                   alt="GTC team pic"
                 />
-                <h2>
-                  Clark Cent
-                </h2>
-                <p>
-                  {t('team.occ1')}
-                </p>
-                <p>
-                  poczta@mail.pl
-                </p>
+                <h2>Patryk Pietrzak</h2>
+                <p>{t('team.oc21')}</p>
+                <p>patryk.pietrzak@gtcpoland.com</p>
               </div>
-              <div className="team-col col-5 col-lg">
+              <div className="team-col col-5 col-lg-3">
                 <Image
-                  src="/team/team2.png"
+                  src="/team/6.png"
                   width={300} height={300}
                   alt="GTC team pic"
                 />
-                <h2>
-                  Clark Cent
-                </h2>
-                <p>
-                  {t('team.occ1')}
-                </p>
-                <p>
-                  poczta@mail.pl
-                </p>
+                <h2>Rafał Kolarczyk</h2>
+                <p>{t('team.oc6')}</p>
+                <p>rafal.kolarczyk@gtcpoland.com </p>
               </div>
-              <div className="team-col col-5 col-lg">
+              <div className="team-col col-5 col-lg-3">
                 <Image
-                  src="/team/team3.png"
+                  src="/team/11.png"
                   width={300} height={300}
                   alt="GTC team pic"
                 />
-                <h2>
-                  Clark Cent
-                </h2>
-                <p>
-                  {t('team.occ2')}
-                </p>
-                <p>
-                  poczta@mail.pl
-                </p>
+                <h2>Agnieszka Bajer</h2>
+                <p>{t('team.oc11')}</p>
+                <p>agnieszka.bajer@gtcpoland.com </p>
               </div>
             </div>
           </AnimateWrapp>
+          <AnimateWrapp>
+            <div className="row mb-5">
+              <div className="team-col col-5 col-lg-3">
+                <Image
+                  src="/team/12.png"
+                  width={300} height={300}
+                  alt="GTC team pic"
+                />
+                <h2>Alona Dibrova Wanot</h2>
+                <p>{t('team.oc12')}</p>
+                <p>alona.wanot@gtcpoland.com </p>
+              </div>
+              <div className="team-col col-5 col-lg-3">
+                <Image
+                  src="/team/4.png"
+                  width={300} height={300}
+                  alt="GTC team pic"
+                />
+                <h2>Łucja Ząbek</h2>
+                <p>{t('team.oc4')}</p>
+                <p>lucja.zabek@gtcpoland.com</p>
+              </div>
+              <div className="team-col col-5 col-lg-3">
+                <Image
+                  src="/team/24.png"
+                  width={300} height={300}
+                  alt="GTC team pic"
+                />
+                <h2>Wiktoria Jochemczyk</h2>
+                <p>{t('team.oc24')}</p>
+                <p>wiktoria.jochemczyk@gtcpoland.com </p>
+              </div>
+              <div className="team-col col-5 col-lg-3">
+                <Image
+                  src="/team/25.png"
+                  width={300} height={300}
+                  alt="GTC team pic"
+                />
+                <h2>Dominik Wieczorek</h2>
+                <p>{t('team.oc25')}</p>
+                <p>dominik.wieczorek@gtcpoland.com</p>
+              </div>
+            </div>
+          </AnimateWrapp>
+          <Link className="button main" href="/team">
+            {t('global.link6')}
+          </Link>
         </div>
       </section>
 

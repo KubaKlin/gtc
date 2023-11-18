@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import PageHead from '../../components/pagehead'
 import NavBar from '../../components/navbar'
-import SideBar from '../../components/SideBar'
+import SideBarOther from '../../components/sideBarOther'
 import NavBarSub from '../../components/navBarSub'
 import Footer from '../../components/footer'
 import Image from 'next/image'
@@ -27,29 +27,29 @@ export default function Home() {
           <div className="row">
             <div className="col-8 sub-content-wrapp">
               <AnimateWrappLater>
-                <h2>{t('service.txt1')}</h2>
+                <h2>{t('service.txt8')}</h2>
                 <h4>
-                  {t('service.subtxt11')}<br/>
-                  {t('service.subtxt12')}
+                  {t('service.subtxt81')}
                 </h4>
                 <p>
-                  {t('service.subtxt13')}
+                  {t('service.subtxt82')}<br/>
+                  {t('service.subtxt83')}<br/>
+                  {t('service.subtxt84')}<br/>
+                  {t('service.subtxt85')}<br/>
+                  {t('service.subtxt86')}
                 </p>
-                <Image
-                  src="/services/sea-transport.jpg"
-                  width={600} height={300}
-                  alt="GTC team pic"
-                />
+                <h4>
+                  {t('service.subtxt87')}
+                </h4>
                 <p>
-                  {t('service.subtxt14')}
-                </p>
-                <p>
-                  {t('service.subtxt15')}
+                  {t('service.subtxt88')}<br/>
+                  {t('service.subtxt89')}<br/>
+                  {t('service.subtxt810')}
                 </p>
               </AnimateWrappLater>
             </div>
             <div className="col-4">
-              <SideBar/>
+              <SideBarOther/>
             </div>
           </div>
         </div>

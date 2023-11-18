@@ -65,37 +65,37 @@ const NavBar = () => {
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <Link href="/services/sea-containers" className="nav-link px-3 py-1">
+                    <Link href="/services/sea-containers" className="nav-link px-3">
                       {t('service.txt1')}
                     </Link>
                   </li>
                   <li>
-                    <Link href="/services/sea-containers" className="nav-link px-3">
+                    <Link href="/services/ftl-transport" className="nav-link px-3">
                       {t('service.txt2')}
                     </Link>
                   </li>
                   <li>
-                    <Link href="/services/sea-containers" className="nav-link px-3">
+                    <Link href="/services/recycling" className="nav-link px-3">
                       {t('service.txt3')}
                     </Link>
                   </li>
                   <li>
-                    <Link href="/services/sea-containers" className="nav-link px-3 py-1">
+                    <Link href="/services/dump-trucks" className="nav-link px-3">
                       {t('service.txt4')}
                     </Link>
                   </li>
                   <li>
-                    <Link href="/services/sea-containers" className="nav-link px-3">
+                    <Link href="/services/expressltl" className="nav-link px-3">
                       {t('service.txt5')}
                     </Link>
                   </li>
                   <li>
-                    <Link href="/services/sea-containers" className="nav-link px-3">
+                    <Link href="/services/crops" className="nav-link px-3">
                       {t('service.txt6')}
                     </Link>
                   </li>
                   <li>
-                    <Link href="/services/sea-containers" className="nav-link px-3 py-1">
+                    <Link href="/services/storage" className="nav-link px-3">
                       {t('service.txt7')}
                     </Link>
                   </li>
@@ -107,19 +107,17 @@ const NavBar = () => {
                   {t('global.link4')}
                 </Link>
               </li>
-              <li className="nav-item dropdown">
-                <a className="nav-link text-white" href="#" id="navbarDropdown" role="button"
-                   data-bs-toggle="dropdown" aria-expanded="false">
+              <li>
+                <Link href="/services/for-carriers" className="nav-link px-2 text-white">
                   {t('global.link8')}
-                </a>
+                </Link>
               </li>
               <li>
                 <a href="#footer" className="nav-link px-2 text-white">
                   {t('global.link5')}
                 </a>
               </li>
-            </ul>
-            <div className="dropdown ms-5">
+              <li className="dropdown ms-5">
               <button
                 className="button outline button-lang" type="button" data-bs-toggle="dropdown"
                 id="dropdownMenuButton1" aria-expanded="false"
@@ -136,7 +134,8 @@ const NavBar = () => {
                   </li>
                 ))}
               </ul>
-            </div>
+            </li>
+            </ul>
           </nav>
         </div>
       </div>

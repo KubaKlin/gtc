@@ -21,7 +21,7 @@ const ContactFooter = () => {
               </AnimateWrapp>
             </div>
             <div className="col-12 col-lg d-flex">
-              <Link className="button outline" href="/about">
+              <Link className="button outline" href="mailto:biuro@gtcpoland.com">
                 {t('global.link7')}
               </Link>
             </div>
