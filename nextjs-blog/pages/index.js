@@ -184,7 +184,7 @@ export default function Home() {
 
       <ContactFooter/>
 
-      <section className="our-team">
+      <section className="our-team" id="our-team">
         <div className="container">
           <AnimateWrapp>
             <h4 className="big-head">

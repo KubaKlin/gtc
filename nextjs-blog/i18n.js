@@ -52,7 +52,7 @@ i18n
             subtxt31: 'Wszyscy jesteśmy odpowiedzialni za jakość środowiska, w którym żyjemy. Dlatego kierujemy się zasadą wielokrotnego wykorzystywania metariałów na drodze recyklingu.',
             subtxt32: 'Koncentrujemy się na dużych wolumenach odpadów ponownego przetworzenia, dzięki czemu zapewniamy możliwość wielokrotnego wykorzystywania papieru czy metali nieżelaznych w cyklach produkcyjnych. Specjalizujemy się w profesjonalnym przewozie materiałów odpadowych do większości europejskich instalacji recyklingowych, hut, odlewni czy papierni. ',
             subtxt33: 'Dobieramy środki transportu jak również optymalne trasy przewozu uwzględniając przepisy poszczególnych krajów europejskich w tym zakresie. ',
-            txt4: 'Transport wywrotkami',
+            txt4: 'Wywrotki oraz ruchome podłogi',
             subtxt41: 'Dzięki rozbudowanej flocie własnej oraz kontraktowej zapewniamy skuteczny transport materiałów sypkich, budowlanych, odpadowych oraz złomu na terenie całej Europy. Dysponujemy wywrotkami – stalowe (ładowność od 23 do 24,5 tony), aluminiowe (ładowność od 25 do 26,5 tony) - oraz ruchomymi podłogami w zależności od wymogów Klienta i rodzaju materiału do przewozu.  ',
             subtxt42: 'Specjalizujemy się w transporcie metali do przetopu lub dalszej obróbki, realizujemy projekty niezależnie od wielkości wolumenu. Wszystkie przewożone przez nas towary są ubezpieczone, a samochody wyposażone w system nawigacji GPS. Posiadamy stosowne pozwolenia na transport materiałow odpadowych w większości krajów europejskich. ',
             txt5: 'Transport Ekspresowy oraz LTL',
@@ -142,7 +142,7 @@ i18n
           card: {
             txt1: 'Do pobrania',
             txt2: 'Zasady weryfikacji przewoźników',
-            link: '../public/doc/zasadyPL.docx',
+            link: '../doc/zasadyPL.docx',
           }
         }
       },
@@ -265,7 +265,7 @@ i18n
           card: {
             txt1: 'Download',
             txt2: 'Rules for verification of carriers ',
-            link: '../public/doc/zasadyEN.docx',
+            link: '../doc/zasadyEN.docx',
           }
         }
       },
@@ -388,7 +388,7 @@ i18n
           card: {
             txt1: 'herunterladen',
             txt2: 'Regeln für die Überprüfung von Beförderungsunternehmen ',
-            link: '../public/doc/zasadyDE.docx',
+            link: '../doc/zasadyDE.docx',
           }
         }
       },
@@ -511,7 +511,7 @@ i18n
           card: {
             txt1: 'downloaden',
             txt2: 'Regels voor de controle van vervoerders ',
-            link: '../public/doc/zasadyNL.docx',
+            link: '../doc/zasadyNL.docx',
           }
         }
       },
@@ -635,7 +635,7 @@ i18n
           card: {
             txt1: "Télécharger",
             txt2: 'Règles de vérification des transporteurs ',
-            link: '../public/doc/zasadyFR.docx',
+            link: '../doc/zasadyFR.docx',
           }
         }
       },
@@ -758,7 +758,7 @@ i18n
           card: {
             txt1: 'scaricare',
             txt2: 'Regole per la verifica dei vettori ',
-            link: '../public/doc/zasadyIT.docx',
+            link: '../doc/zasadyIT.docx',
           }
         }
       },
@@ -881,7 +881,7 @@ i18n
           card: {
             txt1: 'завантажити',
             txt2: 'Правила перевірки перевізників ',
-            link: '../public/doc/zasadyUA.docx',
+            link: '../doc/zasadyUA.docx',
           }
         }
       },

@@ -103,7 +103,7 @@ const NavBar = () => {
               </li>
 
               <li>
-                <Link href="/#about" className="nav-link px-2 text-white">
+                <Link href="/#our-team" className="nav-link px-2 text-white">
                   {t('global.link4')}
                 </Link>
               </li>

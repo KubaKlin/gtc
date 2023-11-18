@@ -34,6 +34,11 @@ export default function Home() {
                 <p>
                   {t('service.subtxt62')}
                 </p>
+                <Image
+                  src="/services/crops.png"
+                  width={600} height={300}
+                  alt="GTC team pic"
+                />
                 <p>
                   {t('service.subtxt63')}
                 </p>

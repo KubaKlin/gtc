@@ -29,6 +29,11 @@ export default function Home() {
               <AnimateWrappLater>
                 <h2>{t('service.txt5')}</h2>
                 <p>{t('service.subtxt51')}</p>
+                <Image
+                  src="/services/ltl.jpeg"
+                  width={600} height={300}
+                  alt="GTC team pic"
+                />
                 <p>
                   {t('service.subtxt52')}<br/>
                   {t('service.subtxt53')}<br/>

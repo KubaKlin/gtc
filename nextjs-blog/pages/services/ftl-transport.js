@@ -32,7 +32,7 @@ export default function Home() {
                   {t('service.subtxt21')}
                 </p>
                 <Image
-                  src="/services/sea-transport.jpg"
+                  src="/services/ftl.jpeg"
                   width={600} height={300}
                   alt="GTC team pic"
                 />
