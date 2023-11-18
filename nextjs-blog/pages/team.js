@@ -159,7 +159,7 @@ export default function Home() {
                 />
                 <h2>Daniel Morzywołek</h2>
                 <p>{t('team.oc13')}</p>
-                <p>dominik.wieczorek@gtcpoland.com</p>
+                <p>daniel.morzywolek@gtcpoland.com</p>
               </div>
             </div>
           </AnimateWrapp>
@@ -202,7 +202,7 @@ export default function Home() {
                   alt="GTC team pic"
                 />
                 <h2>Paulina Jarosz</h2>
-                <p>{t('team.oc25')}</p>
+                <p>{t('team.oc22')}</p>
                 <p>paulina.jarosz@gtcpoland.com</p>
               </div>
             </div>
