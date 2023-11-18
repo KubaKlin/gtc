@@ -20,14 +20,14 @@ const Footer = () => {
             />
           </div>
           <div className="col-md-3 col-12 footer-copy mb-ms-0 mb-4">
-            GTC Poland <br/>
+            GTC Poland Sp. z o.o.<br/>
             ul. Imielińska 167<br/>
             41-407 Imielin<br/>
           </div>
           <div className="col-md-3 col-12 footer-copy mb-ms-0 mb-4">
             e-mail: biuro@gtcpoland.com<br/>
-            tel.: (32) 739 06 77<br/>
-            fax.: (32) 739 08 58<br/>
+            tel.: (32) +48 739 06 77<br/>
+            fax.: (32) +48 739 08 58<br/>
           </div>
           <div className="col-md-3 col-12 footer-copy mb-ms-0 mb-4">
             Kapitał zakładowy: 50 000 zł<br/>
