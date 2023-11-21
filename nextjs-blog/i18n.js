@@ -142,7 +142,7 @@ i18n
           card: {
             txt1: 'Do pobrania',
             txt2: 'Zasady weryfikacji przewoźników',
-            link: '../doc/zasadyPL.docx',
+            link: '../doc/zasadyPL.pdf',
           }
         }
       },
@@ -265,7 +265,7 @@ i18n
           card: {
             txt1: 'Download',
             txt2: 'Rules for verification of carriers ',
-            link: '../doc/zasadyEN.docx',
+            link: '../doc/zasadyEN.pdf',
           }
         }
       },
@@ -388,7 +388,7 @@ i18n
           card: {
             txt1: 'herunterladen',
             txt2: 'Regeln für die Überprüfung von Beförderungsunternehmen ',
-            link: '../doc/zasadyDE.docx',
+            link: '../doc/zasadyDE.pdf',
           }
         }
       },
@@ -511,7 +511,7 @@ i18n
           card: {
             txt1: 'downloaden',
             txt2: 'Regels voor de controle van vervoerders ',
-            link: '../doc/zasadyNL.docx',
+            link: '../doc/zasadyNL.pdf',
           }
         }
       },
@@ -537,7 +537,6 @@ i18n
             subtxt13: "Solutions logistiques porte à porte dédiées, y compris le transport intermodal. Exécution du transport ferroviaire par l'intermédiaire d'opérateurs fixes utilisant leurs propres conteneurs-citernes 20-23′, un superviseur individuel 24 heures sur 24 et 7 jours sur 7 veillant au bon déroulement du transport. Flotte équipée de semi-remorques pour le transport de conteneurs 20′ / 40′ / 40′ HC / 45′.",
             subtxt14: "Nous disposons de tracteurs à 3 essieux, nous exploitons des terminaux à Dąbrowa Górnicza, Slawkowo, Gliwice, Włosienica, ainsi qu'à Brzeg Dolny, Kąty Wrocławskie et Małaszewicze. Nous proposons des enlèvements de conteneurs dans le pays et à l'étranger.",
             subtxt15: 'VLiaisons fixes : PL-NL, NL-DE, DE-PL, NL-SK, DE-ES',
-            txt2: 'Transport  FTL',
             txt2: 'Transport FTL',
             subtxt21: "Le service de transport routier international est fortement développé dans notre offre. Nous préparons des offres complètes de services de transport en nous appuyant sur des transitaires spécialisés qui comprennent les besoins de nos clients. Nos équipes sont divisées en fonction d'une certaine spécialisation, tant en ce qui concerne la zone dans laquelle le transport a lieu que les exigences de transport particulières propres à l'industrie.",
             subtxt22: "Notre flotte garantit des solutions optimales et une grande flexibilité, quelle que soit la taille des commandes. Nous disposons de nos propres moyens de transport et de notre propre flotte de sous-traitants, ce qui nous permet de traiter les commandes les plus exigeantes et les plus complexes. De nombreuses années d'expérience, un suivi constant des sous-traitants et une flotte multidimensionnelle et moderne sont les garants d'une grande flexibilité.",
@@ -635,7 +634,7 @@ i18n
           card: {
             txt1: "Télécharger",
             txt2: 'Règles de vérification des transporteurs ',
-            link: '../doc/zasadyFR.docx',
+            link: '../doc/zasadyFR.pdf',
           }
         }
       },
@@ -758,7 +757,7 @@ i18n
           card: {
             txt1: 'scaricare',
             txt2: 'Regole per la verifica dei vettori ',
-            link: '../doc/zasadyIT.docx',
+            link: '../doc/zasadyIT.pdf',
           }
         }
       },
@@ -881,7 +880,7 @@ i18n
           card: {
             txt1: 'завантажити',
             txt2: 'Правила перевірки перевізників ',
-            link: '../doc/zasadyUA.docx',
+            link: '../doc/zasadyUA.pdf',
           }
         }
       },

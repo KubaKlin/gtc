@@ -11,11 +11,11 @@ const NavBar = () => {
   const langs = {
     pl: {nativeName: 'Polish'},
     en: {nativeName: 'English'},
-    de: {nativeName: 'Deutsch'},
-    nl: {nativeName: 'Netherland'},
-    fr: {nativeName: 'France'},
-    it: {nativeName: 'Italy'},
-    ua: {nativeName: 'Ukrain'},
+    de: {nativeName: 'German'},
+    nl: {nativeName: 'Dutch'},
+    fr: {nativeName: 'French'},
+    it: {nativeName: 'Italian'},
+    ua: {nativeName: 'Ukrainian'},
   };
   const [navbar, setNavbar] = useState(false)
 
@@ -127,7 +127,7 @@ const NavBar = () => {
               <ul className="dropdown-menu px-2" aria-labelledby="dropdownMenuButton1">
                 {Object.keys(langs).map((lng) => (
                   <li className="nav-link px-2 py-2" key={lng}
-                      style={{fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal'}} type="submit"
+                      style={{fontWeight: i18n.resolvedLanguage === lng ? '900' : 'normal'}} type="submit"
                       onClick={() => i18n.changeLanguage(lng)}
                   >
                     {langs[lng].nativeName}
