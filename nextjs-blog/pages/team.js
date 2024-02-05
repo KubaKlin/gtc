@@ -177,13 +177,13 @@ export default function Home() {
               </div>
               <div className="team-col col-5 col-lg-3">
                 <Image
-                  src="/team/5.png"
+                  src="/team/26.png"
                   width={300} height={300}
                   alt="GTC team pic"
                 />
-                <h2>Karolina Pońc</h2>
-                <p>{t('team.oc5')}</p>
-                <p>karolina.ponc@gtcpoland.com</p>
+                <h2>Agnieszka Porczyńska</h2>
+                <p>{t('team.oc26')}</p>
+                <p>agnieszka.porczynska@gtcpoland.com</p>
               </div>
               <div className="team-col col-5 col-lg-3">
                 <Image
@@ -219,16 +219,7 @@ export default function Home() {
                 <p>{t('team.oc23')}</p>
                 <p>piotr.wagstyl@gtcpoland.com </p>
               </div>
-              <div className="team-col col-5 col-lg-3">
-                <Image
-                  src="/team/26.png"
-                  width={300} height={300}
-                  alt="GTC team pic"
-                />
-                <h2>Agnieszka Porczyńska</h2>
-                <p>{t('team.oc26')}</p>
-                <p>agnieszka.porczynska@gtcpoland.com</p>
-              </div>
+              <div className="team-col col-5 col-lg-3"></div>
               <div className="team-col col-5 col-lg-3"></div>
               <div className="team-col col-5 col-lg-3"></div>
             </div>
