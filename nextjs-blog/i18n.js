@@ -138,6 +138,8 @@ i18n
             oc24: 'Dyrektor projektów cargo',
             oc25: 'Dyrektor ds. rozwoju',
             oc26: 'Spedytor międzynarodowy',
+            oc27: 'Regionalny dyrektor handlowy (Europa centralna & wchodnia)',
+            oc28: 'kierownik ds. kluczowych klientów handlowych'
           },
           card: {
             txt1: 'Do pobrania',
@@ -261,6 +263,8 @@ i18n
             oc24: 'Cargo project director',
             oc25: 'Business Development Director',
             oc26: 'International forwarder',
+            oc27: 'Area sales manager (west & central Europe)',
+            oc28: 'Key trade account manager'
           },
           card: {
             txt1: 'Download',
@@ -384,6 +388,8 @@ i18n
             oc24: 'Cargo project director',
             oc25: 'Business Development Director',
             oc26: 'International forwarder',
+            oc27: 'Area sales manager (west & central Europe)',
+            oc28: 'Key trade account manager'
           },
           card: {
             txt1: 'herunterladen',
@@ -507,6 +513,8 @@ i18n
             oc24: 'Cargo project director',
             oc25: 'Business Development Director',
             oc26: 'International forwarder',
+            oc27: 'Area sales manager (west & central Europe)',
+            oc28: 'Key trade account manager'
           },
           card: {
             txt1: 'downloaden',
@@ -630,6 +638,8 @@ i18n
             oc24: 'Cargo project director',
             oc25: 'Business Development Director',
             oc26: 'International forwarder',
+            oc27: 'Area sales manager (west & central Europe)',
+            oc28: 'Key trade account manager'
           },
           card: {
             txt1: "Télécharger",
@@ -753,6 +763,8 @@ i18n
             oc24: 'Cargo project director',
             oc25: 'Business Development Director',
             oc26: 'International forwarder',
+            oc27: 'Area sales manager (west & central Europe)',
+            oc28: 'Key trade account manager'
           },
           card: {
             txt1: 'scaricare',
@@ -876,6 +888,8 @@ i18n
             oc24: 'Cargo project director',
             oc25: 'Business Development Director',
             oc26: 'International forwarder',
+            oc27: 'Area sales manager (west & central Europe)',
+            oc28: 'Key trade account manager'
           },
           card: {
             txt1: 'завантажити',

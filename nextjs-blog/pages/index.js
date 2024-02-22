@@ -143,7 +143,7 @@ export default function Home() {
               </div>
               <div className="services-col col-10 col-lg">
                 <h2>{t('service.txt4')}</h2>
-              
+
                 <Link className="button" href="/services/dump-trucks">
                   {t('global.link6')}
                 </Link>
@@ -172,7 +172,7 @@ export default function Home() {
               </div>
               <div className="services-col col-10 col-lg">
                 <h2>{t('service.txt8')}</h2>
-              
+
                 <Link className="button" href="/services/for-carriers">
                   {t('global.link6')}
                 </Link>
@@ -195,13 +195,23 @@ export default function Home() {
             <div className="row mb-5">
               <div className="team-col col-5 col-lg-3">
                 <Image
-                  src="/team/3.png"
+                  src="/team/25.png"
                   width={300} height={300}
                   alt="GTC team pic"
                 />
-                <h2>Kamil Rebizant</h2>
-                <p>{t('team.oc3')}</p>
-                <p>kamil.rebizant@gtcpoland.com </p>
+                <h2>Dominik Wieczorek</h2>
+                <p>{t('team.oc25')}</p>
+                <p>dominik.wieczorek@gtcpoland.com</p>
+              </div>
+              <div className="team-col col-5 col-lg-3">
+                <Image
+                  src="/team/pawel_polanski.png"
+                  width={300} height={300}
+                  alt="GTC team pic"
+                />
+                <h2>Paweł Polański</h2>
+                <p>{t('team.oc27')}</p>
+                <p></p>
               </div>
               <div className="team-col col-5 col-lg-3">
                 <Image
@@ -223,6 +233,20 @@ export default function Home() {
                 <p>{t('team.oc6')}</p>
                 <p>rafal.kolarczyk@gtcpoland.com </p>
               </div>
+            </div>
+          </AnimateWrapp>
+          <AnimateWrapp>
+            <div className="row mb-5">
+              <div className="team-col col-5 col-lg-3">
+                <Image
+                  src="/team/24.png"
+                  width={300} height={300}
+                  alt="GTC team pic"
+                />
+                <h2>Wiktoria Jochemczyk</h2>
+                <p>{t('team.oc24')}</p>
+                <p>wiktoria.jochemczyk@gtcpoland.com </p>
+              </div>
               <div className="team-col col-5 col-lg-3">
                 <Image
                   src="/team/11.png"
@@ -232,20 +256,6 @@ export default function Home() {
                 <h2>Agnieszka Bajer</h2>
                 <p>{t('team.oc11')}</p>
                 <p>agnieszka.bajer@gtcpoland.com </p>
-              </div>
-            </div>
-          </AnimateWrapp>
-          <AnimateWrapp>
-            <div className="row mb-5">
-              <div className="team-col col-5 col-lg-3">
-                <Image
-                  src="/team/12.png"
-                  width={300} height={300}
-                  alt="GTC team pic"
-                />
-                <h2>Alona Dibrova Wanot</h2>
-                <p>{t('team.oc12')}</p>
-                <p>alona.wanot@gtcpoland.com </p>
               </div>
               <div className="team-col col-5 col-lg-3">
                 <Image
@@ -259,23 +269,13 @@ export default function Home() {
               </div>
               <div className="team-col col-5 col-lg-3">
                 <Image
-                  src="/team/24.png"
+                  src="/team/3.png"
                   width={300} height={300}
                   alt="GTC team pic"
                 />
-                <h2>Wiktoria Jochemczyk</h2>
-                <p>{t('team.oc24')}</p>
-                <p>wiktoria.jochemczyk@gtcpoland.com </p>
-              </div>
-              <div className="team-col col-5 col-lg-3">
-                <Image
-                  src="/team/25.png"
-                  width={300} height={300}
-                  alt="GTC team pic"
-                />
-                <h2>Dominik Wieczorek</h2>
-                <p>{t('team.oc25')}</p>
-                <p>dominik.wieczorek@gtcpoland.com</p>
+                <h2>Kamil Rebizant</h2>
+                <p>{t('team.oc3')}</p>
+                <p>kamil.rebizant@gtcpoland.com </p>
               </div>
             </div>
           </AnimateWrapp>
