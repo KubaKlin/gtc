@@ -139,7 +139,7 @@ i18n
             oc25: 'Dyrektor ds. rozwoju',
             oc26: 'Spedytor międzynarodowy',
             oc27: 'Regionalny dyrektor handlowy (Europa centralna & wchodnia)',
-            oc28: 'kierownik ds. kluczowych klientów handlowych'
+            oc28: 'Kierownik ds. kluczowych klientów handlowych'
           },
           card: {
             txt1: 'Do pobrania',

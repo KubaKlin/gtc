@@ -211,7 +211,7 @@ export default function Home() {
                 />
                 <h2>Paweł Polański</h2>
                 <p>{t('team.oc27')}</p>
-                <p></p>
+                <p>pawel.polanski@gtcpoland.com</p>
               </div>
               <div className="team-col col-5 col-lg-3">
                 <Image
