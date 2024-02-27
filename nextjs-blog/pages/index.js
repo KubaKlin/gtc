@@ -7,7 +7,8 @@ import Link from "next/link";
 import 'bootstrap/dist/css/bootstrap.css';
 import '../i18n.js';
 import { useTranslation } from 'react-i18next';
-import { AnimateWrapp, AnimateWrappLater } from "./_app";
+import { AnimateWrapp, AnimateWrappLater } from "../components/animateWrapp";
+
 import ContactFooter from "../components/contact_foot";
 
 export default function Home() {

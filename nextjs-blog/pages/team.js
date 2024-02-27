@@ -6,7 +6,7 @@ import Image from 'next/image'
 import 'bootstrap/dist/css/bootstrap.css';
 import '../i18n.js';
 import { useTranslation } from 'react-i18next';
-import { AnimateWrapp } from "./_app";
+import { AnimateWrapp } from "../components/animateWrapp";
 import ContactFooter from "../components/contact_foot";
 
 

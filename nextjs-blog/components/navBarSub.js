@@ -1,5 +1,5 @@
 import React from "react"
-import { AnimateWrapp } from "../pages/_app";
+import { AnimateWrapp } from "./animateWrapp";
 import { useTranslation } from "react-i18next";
 
 const NavBarSub = () => {

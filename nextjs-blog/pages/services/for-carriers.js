@@ -4,11 +4,10 @@ import NavBar from '../../components/navbar'
 import SideBarOther from '../../components/sideBarOther'
 import NavBarSub from '../../components/navBarSub'
 import Footer from '../../components/footer'
-import Image from 'next/image'
 import 'bootstrap/dist/css/bootstrap.css';
 import '../../i18n.js';
 import { useTranslation } from 'react-i18next';
-import { AnimateWrappLater } from "../_app";
+import { AnimateWrappLater } from "../../components/animateWrapp";
 import ContactFooter from "../../components/contact_foot";
 
 

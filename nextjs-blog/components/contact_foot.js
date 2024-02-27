@@ -1,7 +1,7 @@
 import '../i18n.js';
 import React from "react";
-import {useTranslation} from "react-i18next";
-import {AnimateWrapp} from "../pages/_app";
+import { useTranslation } from "react-i18next";
+import { AnimateWrapp } from "./animateWrapp";
 import Link from "next/link";
 
 const ContactFooter = () => {
