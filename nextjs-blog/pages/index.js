@@ -8,8 +8,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 import '../i18n.js';
 import { useTranslation } from 'react-i18next';
 import { AnimateWrapp, AnimateWrappLater } from "../components/animateWrapp";
-
+import { staffMembers } from '../data/staffMembers';
 import ContactFooter from "../components/contact_foot";
+import StaffMember from "../components/staffMember";
 
 export default function Home() {
   const { t } = useTranslation();
@@ -194,90 +195,14 @@ export default function Home() {
           </AnimateWrapp>
           <AnimateWrapp>
             <div className="row mb-5">
-              <div className="team-col col-5 col-lg-3">
-                <Image
-                  src="/team/25.png"
-                  width={300} height={300}
-                  alt="GTC team pic"
+              {staffMembers.slice(0, 8).map((item) => (
+                <StaffMember
+                  name={item.name}
+                  desc={item.desc}
+                  image={item.image}
+                  mail={item.mail}
                 />
-                <h2>Dominik Wieczorek</h2>
-                <p>{t('team.oc25')}</p>
-                <p>dominik.wieczorek@gtcpoland.com</p>
-              </div>
-              <div className="team-col col-5 col-lg-3">
-                <Image
-                  src="/team/pawel_polanski.png"
-                  width={300} height={300}
-                  alt="GTC team pic"
-                />
-                <h2>Paweł Polański</h2>
-                <p>{t('team.oc27')}</p>
-                <p>pawel.polanski@gtcpoland.com</p>
-              </div>
-              <div className="team-col col-5 col-lg-3">
-                <Image
-                  src="/team/21.png"
-                  width={300} height={300}
-                  alt="GTC team pic"
-                />
-                <h2>Patryk Pietrzak</h2>
-                <p>{t('team.oc21')}</p>
-                <p>patryk.pietrzak@gtcpoland.com</p>
-              </div>
-              <div className="team-col col-5 col-lg-3">
-                <Image
-                  src="/team/6.png"
-                  width={300} height={300}
-                  alt="GTC team pic"
-                />
-                <h2>Rafał Kolarczyk</h2>
-                <p>{t('team.oc6')}</p>
-                <p>rafal.kolarczyk@gtcpoland.com </p>
-              </div>
-            </div>
-          </AnimateWrapp>
-          <AnimateWrapp>
-            <div className="row mb-5">
-              <div className="team-col col-5 col-lg-3">
-                <Image
-                  src="/team/24.png"
-                  width={300} height={300}
-                  alt="GTC team pic"
-                />
-                <h2>Wiktoria Jochemczyk</h2>
-                <p>{t('team.oc24')}</p>
-                <p>wiktoria.jochemczyk@gtcpoland.com </p>
-              </div>
-              <div className="team-col col-5 col-lg-3">
-                <Image
-                  src="/team/11.png"
-                  width={300} height={300}
-                  alt="GTC team pic"
-                />
-                <h2>Agnieszka Bajer</h2>
-                <p>{t('team.oc11')}</p>
-                <p>agnieszka.bajer@gtcpoland.com </p>
-              </div>
-              <div className="team-col col-5 col-lg-3">
-                <Image
-                  src="/team/4.png"
-                  width={300} height={300}
-                  alt="GTC team pic"
-                />
-                <h2>Łucja Ząbek</h2>
-                <p>{t('team.oc4')}</p>
-                <p>lucja.zabek@gtcpoland.com</p>
-              </div>
-              <div className="team-col col-5 col-lg-3">
-                <Image
-                  src="/team/3.png"
-                  width={300} height={300}
-                  alt="GTC team pic"
-                />
-                <h2>Kamil Rebizant</h2>
-                <p>{t('team.oc3')}</p>
-                <p>kamil.rebizant@gtcpoland.com </p>
-              </div>
+              ))}
             </div>
           </AnimateWrapp>
           <Link className="button main" href="/team">

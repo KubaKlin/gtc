@@ -266,22 +266,23 @@
     img {
       width: 100%;
       height: auto;
-      margin-bottom: 2rem;
+      margin-bottom: 1.25rem;
     }
 
     h2  {
-      margin-bottom: 1rem;
+      margin-bottom: 0.5rem;
       font-size: 1.5rem;
       font-weight: 700;
     }
 
     p {
-      margin-bottom: 0;
+      margin-bottom: 0.25rem;
       font-size: 1.125rem;
-      color: #666;
+      color: #555;
 
       &:last-of-type {
         font-size: 0.75rem;
+        color: #777;
       }
     }
   }
