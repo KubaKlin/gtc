@@ -1,12 +1,9 @@
 import DominikWieczorek from '../public/team/25.png';
 import PawelPolanski from '../public/team/pawel_polanski.png';
-import PatrykPietrzak from '../public/team/21.png';
-import RafalKolarczyk from '../public/team/6.png';
 
 import WiktoriaJochemczyk from '../public/team/24.png';
 import AgnieszkaBajer from '../public/team/11.png';
 import LucjaZabek from '../public/team/4.png';
-import KamilRebizant from '../public/team/3.png';
 
 import AlonaDibrovaWanot from '../public/team/12.png';
 import MichalZolw from '../public/team/1.png';
@@ -20,7 +17,6 @@ import MartaStaszczyk from '../public/team/20.png';
 
 import PaulinaJarosz from '../public/team/22.png';
 import PiotrWagstyl from '../public/team/23.png';
-import LukaszPobozny from '../public/team/lukasz_pobozny.png';
 
 import '../i18n.js';
 
@@ -36,18 +32,6 @@ export const staffMembers = [
     name: 'Paweł Polański',
     desc: '27',
     mail: 'pawel.polanski@gtcpoland.com',
-  },
-  {
-    image: PatrykPietrzak,
-    name: 'Patryk Pietrzak',
-    desc: '21',
-    mail: 'patryk.pietrzak@gtcpoland.com',
-  },
-  {
-    image: RafalKolarczyk,
-    name: 'Rafał Kolarczyk',
-    desc: '6',
-    mail: 'rafal.kolarczyk@gtcpoland.com',
   },
   {
     image: WiktoriaJochemczyk,
@@ -66,12 +50,6 @@ export const staffMembers = [
     name: 'Łucja Ząbek',
     desc: '4',
     mail: 'lucja.zabek@gtcpoland.com',
-  },
-  {
-    image: KamilRebizant,
-    name: 'Kamil Rebizant',
-    desc: '3',
-    mail: 'kamil.rebizant@gtcpoland.com',
   },
   {
     image: AlonaDibrovaWanot,
@@ -132,11 +110,5 @@ export const staffMembers = [
     name: 'Piotr Wagstyl',
     desc: '23',
     mail: 'piotr.wagstyl@gtcpoland.com',
-  },
-  {
-    image: LukaszPobozny,
-    name: 'Łukasz Pobożny',
-    desc: '28',
-    mail: 'plukasz.pobozny@gtcpoland.com',
-  },
+  }
 ]
