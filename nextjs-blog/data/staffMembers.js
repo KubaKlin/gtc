@@ -3,10 +3,8 @@ import PawelPolanski from '../public/team/pawel_polanski.png';
 
 import WiktoriaJochemczyk from '../public/team/24.png';
 import AgnieszkaBajer from '../public/team/11.png';
-import LucjaZabek from '../public/team/4.png';
 
 import AlonaDibrovaWanot from '../public/team/12.png';
-import MichalZolw from '../public/team/1.png';
 import KrzysztofWozniak from '../public/team/19.png';
 import AdrianPlesiak from '../public/team/10.png';
 
@@ -46,22 +44,10 @@ export const staffMembers = [
     mail: 'agnieszka.bajer@gtcpoland.com',
   },
   {
-    image: LucjaZabek,
-    name: 'Łucja Ząbek',
-    desc: '4',
-    mail: 'lucja.zabek@gtcpoland.com',
-  },
-  {
     image: AlonaDibrovaWanot,
     name: 'Alona Dibrova Wanot',
     desc: '12',
     mail: 'alona.wanot@gtcpoland.com',
-  },
-  {
-    image: MichalZolw,
-    name: 'Michał Żółw',
-    desc: '1',
-    mail: '',
   },
   {
     image: KrzysztofWozniak,

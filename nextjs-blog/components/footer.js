@@ -1,10 +1,8 @@
 import '../i18n.js';
 import Image from "next/image";
 import React from "react";
-import {useTranslation} from "react-i18next";
 
 const Footer = () => {
-  const { t } = useTranslation();
 
   return (
     <>
@@ -25,7 +23,6 @@ const Footer = () => {
             41-407 Imielin<br/>
           </div>
           <div className="col-md-3 col-12 footer-copy mb-ms-0 mb-4">
-            e-mail: biuro@gtcpoland.com<br/>
             tel.: (32) +48 739 06 77<br/>
             fax.: (32) +48 739 08 58<br/>
           </div>
@@ -37,7 +34,7 @@ const Footer = () => {
         </div>
         <div className="row text-center footer-cop">
           <span>
-            2023 © GTC. All rights reserved <br/>
+            2025 © GTC. All rights reserved <br/>
             Handcrafted by
             <a href="http://www.kubaklin.pl" target="_blank">
               Kuba Klin

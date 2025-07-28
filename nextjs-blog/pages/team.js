@@ -42,7 +42,7 @@ export default function Home() {
                   name={item.name}
                   desc={item.desc}
                   image={item.image}
-                  mail={item.mail}
+                  //mail={item.mail}
                 />
               ))}
             </div>

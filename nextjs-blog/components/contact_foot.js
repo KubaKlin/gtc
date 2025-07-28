@@ -2,7 +2,7 @@ import '../i18n.js';
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { AnimateWrapp } from "./animateWrapp";
-import Link from "next/link";
+// import Link from "next/link";
 
 const ContactFooter = () => {
   const { t } = useTranslation();
@@ -20,11 +20,11 @@ const ContactFooter = () => {
                 </h3>
               </AnimateWrapp>
             </div>
-            <div className="col-12 col-lg d-flex">
-              <Link className="button outline" href="mailto:biuro@gtcpoland.com">
-                {t('global.link7')}
-              </Link>
-            </div>
+            {/*<div className="col-12 col-lg d-flex">*/}
+            {/*  <Link className="button outline" href="mailto:biuro@gtcpoland.com">*/}
+            {/*    {t('global.link7')}*/}
+            {/*  </Link>*/}
+            {/*</div>*/}
           </div>
         </div>
       </section>
